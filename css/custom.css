@@ -1,7 +1,44 @@
-.bg-custom-primary{
-background: #104cba !important;
+.bg-custom-primary {
+  background: #104cba !important;
 }
-.c-vid{
-    width: 100% !important;
-   
+.c-vid {
+  width: 100% !important;
+}
+.text-c-org {
+  color: orange;
+}
+.text-c-blue {
+  color: rgb(55, 171, 255);
+}
+.canim-content {
+  box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.1) !important;
+  border-width: 0.1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+  border-image-slice: 1;
+}
+.canim-content:hover {
+  border-width: 0.1px;
+ border-radius: 10px;
+  border-style: solid;
+  border-image: linear-gradient(to right, red, purple);
+  border-image-slice: 1;
+  box-shadow: none;
+}
+
+.canim-content:hover .canim-icon {
+  color: rgb(249, 0, 0) !important;
+}
+.canim-content:hover {
+  color: black !important;
+}
+.canim-item:hover .services-content::after {
+  height: 100%;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.canim-item:hover .services-content-icon {
+  position: relative;
+  z-index: 2;
 }

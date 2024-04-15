@@ -362,7 +362,7 @@
 }
 
 .services-item:hover .services-content-icon i {
-    color: var(--bs-secondary) !important;
+    color: white !important;
 }
 
 .services-item:hover .services-content-icon p {
