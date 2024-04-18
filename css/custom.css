@@ -3,6 +3,7 @@
 }
 .c-vid {
   width: 100% !important;
+  height: 100%;
 }
 .text-c-org {
   color: orange;
@@ -133,4 +134,30 @@
 }
 .mbc5 {
   margin-bottom: 280px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contcard a {
+    font-size: 16px !important;
+  }
+  .contcardem a {
+    font-size: 14px !important;
+  }
+  .carousel-caption p {
+    font-size: 10px !important;
+    width: 80%;
+  }
+  .carousel-caption .carousel_btns {
+    display: flex !important;
+    font-size: 10px;
+  }
+  .carousel-caption .carousel_btns button {
+    font-size: 10px !important;
+  }
+  .ccf {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  }
+  .contact-detail{
+    padding: 0 !important;
+  }
 }
