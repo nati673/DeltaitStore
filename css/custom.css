@@ -62,3 +62,44 @@
   aspect-ratio: 3/2;
   object-fit: contain;
 }
+
+.hove1:hover {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+}
+.hove1:hover {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+}
+.hove2:hover {
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+.hove3:hover {
+  color: wheat !important;
+  background-image: linear-gradient(
+    -225deg,
+    #ff057c 0%,
+    #7c64d5 48%,
+    #4cc3ff 100%
+  );
+}
+.text-pcrm {
+  background: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
