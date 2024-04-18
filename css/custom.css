@@ -145,19 +145,23 @@
   }
   .carousel-caption p {
     font-size: 10px !important;
-    width: 80%;
+    width: 80% !important;
   }
   .carousel-caption .carousel_btns {
     display: flex !important;
-    font-size: 10px;
+    font-size: 10px !important;
   }
   .carousel-caption .carousel_btns button {
     font-size: 10px !important;
   }
   .ccf {
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    background-image: linear-gradient(
+      to right,
+      #6a11cb 0%,
+      #2575fc 100%
+    ) !important;
   }
-  .contact-detail{
+  .contact-detail {
     padding: 0 !important;
   }
 }
