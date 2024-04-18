@@ -103,3 +103,34 @@
   background-clip: text;
   color: transparent;
 }
+
+.container-about-us {
+  background-image: url(../assets/img/about_us_bg.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-service_ {
+  background-image: url(../assets/img/Service_bg.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.products_bg {
+  background-image: url(../assets/img/products.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact_bg {
+  background-image: url(../assets/img/photo-1596524430615-b46475ddff6e.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.abus-text {
+  text-align: center;
+}
+.mbc5 {
+  margin-bottom: 280px;
+}
