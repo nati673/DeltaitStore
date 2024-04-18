@@ -14,12 +14,16 @@
   box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.1) !important;
   border-width: 0.1px;
   border-style: solid;
-  border-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+  border-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
   border-image-slice: 1;
 }
 .canim-content:hover {
   border-width: 0.1px;
- border-radius: 10px;
+  border-radius: 10px;
   border-style: solid;
   border-image: linear-gradient(to right, red, purple);
   border-image-slice: 1;
@@ -41,4 +45,20 @@
 .canim-item:hover .services-content-icon {
   position: relative;
   z-index: 2;
+}
+.cm_img {
+  width: 396px !important;
+  height: 410px !important;
+}
+.cm_img_2 {
+  width: 396px !important;
+  height: 420px !important;
+}
+
+/* partner Logo  */
+.logoslide img {
+  width: 250px !important;
+  padding: 0 30px 0 30px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
