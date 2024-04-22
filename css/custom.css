@@ -200,3 +200,8 @@ background-image: linear-gradient(to right, #ce0fb1 0%, #2575fc 100%);
 .topbarstyle small{
 color: #ffffff !important;
 }
+
+
+.border-orenge{
+  border-color: orange !important;
+}
