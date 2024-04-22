@@ -1,5 +1,32 @@
 .bg-custom-primary {
-  background: #104cba !important;
+  background: #ffffff !important;
+}
+.navbar-nav a {
+  color: black !important;
+}
+.anyq {
+  background: -webkit-linear-gradient(0deg, #0015b0 0%, #31a3e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 8;
+}
+.customheader {
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(13, 8, 96, 1) 0%,
+    rgba(9, 9, 121, 1) 21%,
+    rgba(6, 84, 170, 1) 51%,
+    rgba(236, 83, 38, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.customH1{
+  font-weight: black;
+  background: linear-gradient(to top left,#009FFF,#ec2F4B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .c-vid {
   width: 100% !important;
@@ -164,4 +191,12 @@
   .contact-detail {
     padding: 0 !important;
   }
+}
+
+
+.topbarstyle {
+background-image: linear-gradient(to right, #ce0fb1 0%, #2575fc 100%);
+}
+.topbarstyle small{
+color: #ffffff !important;
 }
