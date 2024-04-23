@@ -24,6 +24,7 @@
   transition: opacity 0.8s ease-out, visibility 0s linear 0s;
   visibility: visible;
   visibility: visible;
+  visibility: visible;
   opacity: 1;
 }
 
