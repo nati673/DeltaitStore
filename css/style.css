@@ -1,3 +1,15 @@
+/*** selection Start ***/
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #ea4f30;
+}
+
+::selection {
+  color: white;
+  background: #ea4f30;
+}
+/*** selection End ***/
 /*** Spinner Start ***/
 
 #spinner {
@@ -385,7 +397,13 @@ body::-webkit-scrollbar-thumb {
   top: 0;
   left: 0;
   border-radius: 10px 10px 0 0;
-  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  background-image: linear-gradient(
+    to right,
+    #f78ca0 0%,
+    #f9748f 19%,
+    #fd868c 60%,
+    #fe9a8b 100%
+  );
   transition: 0.5s;
 }
 
