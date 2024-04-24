@@ -107,3 +107,12 @@
 
 })(jQuery);
 
+// Get the current year
+var currentYear = new Date().getFullYear();
+
+// Update the copyright notice
+document.getElementById("copyright").innerHTML = `
+    <a href="#" class="text-secondary">
+        <i class="fas fa-copyright text-secondary me-2"> </i>${currentYear} Delta Technologies 
+    </a>, All rights reserved.
+`;
