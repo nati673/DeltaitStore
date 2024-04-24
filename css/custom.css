@@ -205,3 +205,16 @@ color: #ffffff !important;
 .border-orenge{
   border-color: orange !important;
 }
+.testimonial-item{
+height: 280px;
+background-color: white !important;
+}
+.longlogo img{
+  width: 120px !important;
+}
+.testimonial-logos img{
+   width: 250px !important;
+  padding: 0 10px 0 10px;
+  aspect-ratio: 7/2;
+  object-fit: contain;
+}
